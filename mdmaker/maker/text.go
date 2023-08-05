@@ -2,7 +2,7 @@ package maker
 
 import (
 	"strings"
-	
+
 	"github.com/malutkah/markdowncreator/settings"
 )
 
