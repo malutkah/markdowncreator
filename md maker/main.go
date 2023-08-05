@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 	
-	"md_maker/maker"
-	"md_maker/settings"
+	"github.com/malutkah/markdowncreator/maker"
+	"github.com/malutkah/markdowncreator/settings"
 )
 
 func main() {

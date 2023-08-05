@@ -1,1 +1,1 @@
-module md_maker
+module github.com/malutkah/markdowncreator

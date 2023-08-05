@@ -3,7 +3,7 @@ package maker
 import (
 	"strings"
 	
-	"md_maker/settings"
+	"github.com/malutkah/markdowncreator/settings"
 )
 
 // create markdown header
