@@ -27,7 +27,7 @@ func Image(alt string, src string) string {
 
 func Text(text string, style int) string {
 	switch style {
-	case Text:
+	case Paragraph:
 		return Break + text + Break
 	case Bold:
 		return Break + "**" + text + "**" + Break

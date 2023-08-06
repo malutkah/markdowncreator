@@ -4,7 +4,7 @@ import (
 	"log"
 )
 
-func main() {
+func Test() {
 	
 	list := []string{"1st", "2nd", "3rd"}
 	
