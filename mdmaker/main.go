@@ -2,8 +2,6 @@ package mdmaker
 
 import (
 	"log"
-	
-	"github.com/malutkah/markdowncreator/settings"
 )
 
 func main() {
@@ -16,11 +14,11 @@ func main() {
 		{"Jane Doe", "27", "San Francisco"},
 	}
 	
-	text := Header(settings.Title, "Wasmachensachen")
-	text += Header(settings.Sub, "Hi")
-	text += Header(settings.Header1, "Header 1")
+	text := Header(Title, "Wasmachensachen")
+	text += Header(Sub, "Hi")
+	text += Header(Header1, "Header 1")
 	text += Line
-	text += Text("dayumm", settings.Strike)
+	text += Text("dayumm", Strike)
 	text += Line
 	text += OrderedList(list)
 	text += UnorderedList([]string{"some", "stupid", "shit"})

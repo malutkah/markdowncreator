@@ -1,4 +1,4 @@
-package settings
+package mdmaker
 
 const (
 	_ = iota
@@ -12,7 +12,7 @@ const (
 
 const (
 	_ = iota
-	Text
+	Paragraph
 	Italic
 	Bold
 	Strike
