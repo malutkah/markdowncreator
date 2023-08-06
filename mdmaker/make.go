@@ -1,4 +1,4 @@
-package maker
+package mdmaker
 
 import (
 	"fmt"
@@ -12,6 +12,6 @@ func CreateMarkdown(text string, fileName string) error {
 		err = fmt.Errorf("\nERROR: CreateMarkdown: %v\n\n", err)
 		return err
 	}
-
+	
 	return nil
 }

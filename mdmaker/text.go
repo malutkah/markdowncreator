@@ -1,8 +1,8 @@
-package maker
+package mdmaker
 
 import (
 	"strings"
-
+	
 	"github.com/malutkah/markdowncreator/settings"
 )
 

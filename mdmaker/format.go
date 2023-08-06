@@ -1,4 +1,4 @@
-package maker
+package mdmaker
 
 const (
 	Break  = "\n"
