@@ -25,8 +25,6 @@ func main() {
 	text += OrderedList(list)
 	text += UnorderedList([]string{"some", "stupid", "shit"})
 	text += Link("Some Link", "https://google.com")
-	text += Line
-	text += Image("some pic", "1.jpeg")
 	text += Line + Break
 	text += Table(data)
 	
